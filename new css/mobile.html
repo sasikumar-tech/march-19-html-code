@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE DEVIL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-image: url(pexels-life-of-pix-7919.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        header{
+            display: flex;
+            border: 2px solid black;
+            border-radius: 30px;
+            margin-bottom: 40px;   
+          }
+        h1{
+            margin-left: 15px;
+            color: azure;
+        }
+        .list{
+            display: flex;
+            flex-direction: row;
+            /* flex-wrap: wrap; */
+        }
+        .list li{
+            margin-top: 15px;
+            list-style-type: none;
+            width: 90px;
+        }
+        .list i{
+            margin-top: 13px;
+            margin-left: 50px ;
+            font-size: 25px;
+        }
+        a{
+            text-decoration: none;
+        }
+        .sticky{
+            position: sticky;
+            top: 30px;
+        }
+        /* a:hover it is works like a link turning blue or other color of a text or word */
+        .list a:hover{
+            color: red;
+        }
+        .flex{
+            display: flex;
+            margin: 30px;
+        }
+        .left{
+            flex: 1;
+        }
+        .center{
+            flex: 2;
+        }
+        .right{
+            flex: 1;
+        }
+        .menubar{
+            display: none;
+        }
+        .flex section{
+            color: black;
+        }
+        @media only screen and (max-width:480px){
+            .list{
+                display: none;
+            }
+            .flex{
+                display: flex;
+                flex-direction: column;
+                margin: 10px 0px;
+            }
+            .left{
+                margin-bottom: 30px;
+            }
+            .center{
+                color: brown;
+                margin-bottom: 30px;
+            }
+            .right{
+                margin-bottom: 30px;
+            }
+            .menubar{
+                position: absolute;
+                left: 81%;
+                top: 56px;
+                font-size: 29px;
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="sticky">
+    <header><h1>mystery code</h1>
+    <ul class="list">
+        <li><a href="">home</a></li>
+        <li><a href="">about</a></li>
+        <li><a href="">service</a></li>
+        <li><a href="">portfolio</a></li>
+        <li><a href="">blog</a></li>
+        <li><a href="">contact</a></li>
+        <a href="https://www.instagram.com/accounts/login/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://x.com/?lang=en"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+    </ul>
+</header>
+</div>
+<div class="menubar">
+    <i class="fa-solid fa-bars"></i>
+</div>
+<div class="flex">
+<section class="left">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio provident, nihil minus, esse natus ullam consequuntur repellat fuga minima at fugiat deleniti accusantium aspernatur amet corporis iusto voluptatibus laboriosam eaque?
+</section>
+<section class="center">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni cupiditate ea voluptas, voluptate officiis veniam iure inventore saepe ab blanditiis animi labore ipsam sit debitis totam dicta quod tenetur excepturi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod explicabo expedita, illo nobis laudantium modi adipisci perferendis, iure, officia deleniti eveniet exercitationem harum dolores! Dolor quos praesentium est natus ut Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita laborum saepe quibusdam deleniti veniam libero doloribus quas consequuntur sit modi voluptatum minima voluptates eveniet molestiae nam, adipisci autem maiores illum?
+</section>
+<section class="right">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio provident, nihil minus, esse natus ullam consequuntur repellat fuga minima at fugiat deleniti accusantium aspernatur amet corporis iusto voluptatibus laboriosam eaque?
+</section>
+</div>
+</body>
+</html>  

@@ -11,12 +11,14 @@
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
         header{
             display: flex;
             border: 2px solid black;
             border-radius: 30px;
-        }
+            animation: animation;     
+          }
         h1{
             margin-left: 15px;
         }
@@ -38,9 +40,18 @@
         a{
             text-decoration: none;
         }
+        .sticky{
+            position: sticky;
+            top: 30px;
+        }
+        /* a:hover it is works like a link turning blue or other links */
+        .list li a:hover{
+            color: red;
+        }
     </style>
 </head>
 <body>
+    <div class="sticky">
     <header><h1>mystery code</h1>
     <ul class="list">
         <li><a href="">home</a></li>
@@ -54,5 +65,6 @@
         <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
     </ul>
 </header>
+</div>
 </body>
 </html>  
